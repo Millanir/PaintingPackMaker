@@ -119,6 +119,8 @@ public class DataPackExporter {
         arrayContent.addProperty("min_inclusive", 16);
         arrayContent.addProperty("max_inclusive", 1048576);
         content.addProperty("pack_format", McVersions.getPackVersion(controller.mcVersion.getValue()));
+        content.addProperty("min_format", 16);
+        content.addProperty("max_format", 1048576);
         content.add("supported_formats", arrayContent);
         content.addProperty("description", "Painting Pack made with Painting Pack Maker!");
         return content;

@@ -1,3 +1,6 @@
+## [1.0.11]
+- add min_format and max_format to pack.mcmeta  
+  
 ## [1.0.10]
 - add language files
 - fix compatibility issue with 1.21.1
